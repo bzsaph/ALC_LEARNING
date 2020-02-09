@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trip details"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/ten"
+        android:textSize="@dimen/twenty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/fifteen">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start time"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/tv_details_start_time"
+            android:layout_marginBottom="@dimen/ten"
+            android:textSize="@dimen/eighteen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End time"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/tv_details_end_time"
+            android:layout_marginBottom="@dimen/ten"
+            android:textSize="@dimen/eighteen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distance covered"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/tv_details_distance_covered"
+            android:layout_marginBottom="@dimen/ten"
+            android:textSize="@dimen/eighteen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total amount"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/tv_details_total_amount"
+            android:layout_marginBottom="@dimen/twenty"
+            android:textSize="@dimen/eighteen"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/twenty">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payment method"
+                android:textSize="@dimen/twenty"
+                android:layout_marginBottom="@dimen/ten"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/ten">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Momo"
+                    android:id="@+id/rb_details_momo"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:textSize="@dimen/eighteen"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash"
+                    android:id="@+id/rb_details_cash"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:textSize="@dimen/eighteen"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Card"
+                    android:id="@+id/rb_details_card"
+                    android:layout_marginBottom="@dimen/ten"
+                    android:textSize="@dimen/eighteen"/>
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Amount paid"
+                android:id="@+id/tv_trip_details_amount_paid"
+                android:layout_marginBottom="@dimen/ten"
+                android:textSize="@dimen/eighteen"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:id="@+id/btn_details_confirm"
+            android:layout_marginBottom="@dimen/ten"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
