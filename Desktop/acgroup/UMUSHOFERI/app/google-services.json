@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "1042674407937",
+    "firebase_url": "https://riddertwaza-d6e7e.firebaseio.com",
+    "project_id": "riddertwaza-d6e7e",
+    "storage_bucket": "riddertwaza-d6e7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042674407937:android:0016d87efb4e8231a0fe00",
+        "android_client_info": {
+          "package_name": "com.twaza.riddertwaza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042674407937-u8harlm31f10dphja7h40ss65n1ev5pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twaza.riddertwaza",
+            "certificate_hash": "8facad13284bc545162684fe2c35992e478fa2f4"
+          }
+        },
+        {
+          "client_id": "1042674407937-jgil2puk49s0qccrdkepjt1e6vm0umt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC397MIxo-ND1COghECcscxBpJTiQZiZ9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042674407937-jgil2puk49s0qccrdkepjt1e6vm0umt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042674407937:android:15a55ba17b39f5e8a0fe00",
+        "android_client_info": {
+          "package_name": "rw.twaza.umushoferi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042674407937-se7k9elf3orr712l4bb2m9ieptlsms2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rw.twaza.umushoferi",
+            "certificate_hash": "8facad13284bc545162684fe2c35992e478fa2f4"
+          }
+        },
+        {
+          "client_id": "1042674407937-jgil2puk49s0qccrdkepjt1e6vm0umt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC397MIxo-ND1COghECcscxBpJTiQZiZ9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042674407937-jgil2puk49s0qccrdkepjt1e6vm0umt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042674407937:android:c8f8f2b93ac29609a0fe00",
+        "android_client_info": {
+          "package_name": "rw.twaza.www.twazaapk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042674407937-6uogum8407r1lp5qt9l8ttsv3mjon5vh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rw.twaza.www.twazaapk",
+            "certificate_hash": "8facad13284bc545162684fe2c35992e478fa2f4"
+          }
+        },
+        {
+          "client_id": "1042674407937-jgil2puk49s0qccrdkepjt1e6vm0umt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC397MIxo-ND1COghECcscxBpJTiQZiZ9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042674407937-jgil2puk49s0qccrdkepjt1e6vm0umt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

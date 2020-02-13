@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverTracking" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".DriverTracking" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time now"
+                android:textAlignment="center"
+                android:id="@+id/tv_time_now"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/twenty"
+                android:layout_marginBottom="@dimen/twenty" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start time"
+                android:id="@+id/tv_start_time"
+                android:textSize="@dimen/eighteen"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginBottom="@dimen/fifteen"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="End time"
+                android:id="@+id/tv_end_time"
+                android:textSize="@dimen/eighteen"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginBottom="@dimen/fifteen"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distance covered"
+                android:id="@+id/tv_distance_covered"
+                android:textSize="@dimen/eighteen"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginBottom="@dimen/fifteen"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total amount"
+                android:id="@+id/tv_total_fee"
+                android:textSize="@dimen/eighteen"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginBottom="@dimen/fifteen"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnstrartTrip"
+        android:text="START TRIP"
+        android:background="@color/btnSignIn"
+        android:textColor="@android:color/white"
+        android:enabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
